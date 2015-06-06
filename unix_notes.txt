@@ -1,3 +1,24 @@
+# Display git branches
+git branch
+
+git checkout git-notes
+git branch git-notes
+git commit -m "Add comment about displaying hidden files."
+git add unix_notes.txt
+git log
+git commit -m "Describe non-existence of fred command."
+git diff --staged
+git diff unix_notes.txt
+git diff
+git status
+subl unix_notes.txt
+git commit -m "Add initial version of unix notes."
+cd ..
+ls
+cd .git
+ls -a
+git init
+
 # Display hidden files and hidden directories.
 ls -a
 
