@@ -8,7 +8,7 @@ ls .
 cd ./data/
 cd /
 ls /
-ls ~ 
+ls ~
 cd ../data/
 cd src/
 cd ../../..
@@ -32,7 +32,7 @@ ls -r
 ls -lt
 ls -t
 cd
-clear 
+clear
 curl -fsSL http://git.io/QxUaOQ | sh
 curl -fsSL http://git.io/7UHtNA | sh
 git config --global user.email
@@ -50,7 +50,10 @@ subl /etc/paths
 echo $EDITOR
 subl ~/.config/fish/config.fish
 subl
+
+# There is no such program as fred
 which fred
+
 which subl
 ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 fish_update_completions
@@ -65,9 +68,9 @@ cd unix-and-git-workshop/
 git clone git@github.com:codefellows/unix-and-git-workshop.git
 cd codefellows/
 find . -name "unix-and-git-workshop"
-. ~/venv/landon/bin/activate 
+. ~/venv/landon/bin/activate
 virtualenv ~/venv/landon
-python project.py 
+python project.py
 cd Restaurant/
 git clone git@github.com:WebDesigner32/Restaurant.git
 cd tutoring/
@@ -75,9 +78,9 @@ mkdir tutoring
 chsh -s /bin/bash
 chsh -s bash
 git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
-vi menu.html 
+vi menu.html
 cd ic.org/green-lady-web/
-./a.out 
+./a.out
 g++ test.cpp
 vi test.cpp
 cd cpp
@@ -90,69 +93,69 @@ git add -a
 git diff
 git branch
 cd ppham.github.io/
-vi /etc/sudoers 
+vi /etc/sudoers
 git push -u origin master
 git checkout master
 git remote -v
 cat ~/.ssh/id_rsa.pub
 git push -u origin git-notes
 cat ~/.ssh/id_rsa.pub | pbcopy
-ssh-keygen -t rsa 
+ssh-keygen -t rsa
 ls ~/.ssh/id_rsa
 git remote add origin git@github.com:ppham/sea-w28.git
 gitk
 git log
 git commit -m "Add notes about git."
-git add git_notes.txt 
+git add git_notes.txt
 subl git_notes.txt
 cd uge_workshop/
 git init
 touch cat.txt
-rm -Rf .git 
+rm -Rf .git
 cd temp
 mkdir temp
 git checkout git-notes
-git branch 
+git branch
 git branch git-notes
 git commit -m 'Rename funny_notes to serious_notes.'
 git mv funny_notes.txt serious_notes.txt
-git commit 
-git add funny_notes.txt 
+git commit
+git add funny_notes.txt
 touch funny_notes.txt
 git config --global core.editor 'subl -w'
 git commit -m "Add a note about hidden directories."
 git commit
-git add unix_notes.txt 
-subl unix_notes.txt 
+git add unix_notes.txt
+subl unix_notes.txt
 git ll
-git log 
+git log
 ls .git
 git commit -m "Add Paul's unix notes, initial draft."
 ls -f
 ls -a
 ls uge_workshop/
-mv uge_workshop/moving_around.txt uge_workshop/unix_notes.txt 
+mv uge_workshop/moving_around.txt uge_workshop/unix_notes.txt
 mv moving_around.txt uge_workshop/
 ls dogs_and_cats.txt
 ls uge_workshop
 mkdir uge_workshop
 rm -rf uge_workshop
-subl moving_around.txt 
-history >> moving_around.txt 
+subl moving_around.txt
+history >> moving_around.txt
 ls -t | less
-ls 
-history > moving_around.txt 
+ls
+history > moving_around.txt
 history | tail -r
-vi ~/.config/fish/config.fish 
+vi ~/.config/fish/config.fish
 cd ...
 ls ~
-cd . 
+cd .
 cd ../..
 cd usr/bin/
 cd src/flask
-cd flask 
+cd flask
 cd src
-ls -l 
+ls -l
 cd ~/Dropbox/CodeFellows\ UGE
 cd ~/Dropbox/CodeFellows UGE
 cd /Users/ppham/
@@ -164,19 +167,19 @@ git config user.name
 brew unlink git
 brew install --upgrade git
 brew install --update git
-echo $PATH 
+echo $PATH
 ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 brew info fish
 ssh localbox@local-box.org
 export PORT=24501
-node statehub.js 
+node statehub.js
 cd statehub/
 git clone git@github.com:XPRIZE/GLEXP-Community-Speech.git
 git push origin master
 git commit ppham-invisible.tex -m 'Add Invisible College resume.'
 git commit ppham-invisible.tex -am 'Add Invisible College resume.'
-git add ppham-invisible.tex 
-pdflatex ppham-invisible.tex 
+git add ppham-invisible.tex
+pdflatex ppham-invisible.tex
 open ppham-invisible.pdf
 cd src/resume/
 cd app/build/outputs/apk/
@@ -189,13 +192,13 @@ which jshint
 git pull origin fragments
 git pull
 git commit -am 'Commit unmerged files to get latest fragments branch.'
-git add green-lady-app.iml 
-git checkout green-lady-app.iml 
+git add green-lady-app.iml
+git checkout green-lady-app.iml
 git stash save
 git stash pop
 mv ParseLoginUI/ParseLoginUI.iml ParseLoginUI/ParseLoginUI.iml2
 cd src/ic.org/green-lady-app/
-cd 
+cd
 git push --set-upstream origin master
 git pull origin master
 git pull --set-upstream origin master
@@ -203,56 +206,56 @@ git push origin
 git push
 git push origin git-notes
 git remote add origin git@github.com:ppham/uge_workshop.git
-subl git_notes.txt 
-cat git_notes.txt 
+subl git_notes.txt
+cat git_notes.txt
 touch git_notes.txt
 git reset
-git checkout 
+git checkout
 git checkout HEAD^
 git checkout HEAD
 git checkout 789a17
 git checkout 789
 git commit -m "Add comment about not listing virtual directories."
-git add . 
+git add .
 cd .git
 git commit -m "Add initial history file."
-git status 
-git add ./unix_notes.txt 
+git status
+git add ./unix_notes.txt
 man mv
-ls -l unix_notes.txt 
+ls -l unix_notes.txt
 mv moving_around.txt unix_notes.txt
 ls -plt | less
-ls -plt 
-ls -p 
-ls -l moving_around.txt 
+ls -plt
+ls -p
+ls -l moving_around.txt
 history >> moving_around.txt
-ls -t 
-less moving_around.txt 
-cd moving_around.txt 
+ls -t
+less moving_around.txt
+cd moving_around.txt
 ls moving_down.txt
-ls moving_around.txt 
+ls moving_around.txt
 history | more
-history | less 
+history | less
 man history
-history 10 
+history 10
 history 5
 history 100
 ls -A
-ls -a 
+ls -a
 cd etc
 cd ../Pictures/
 cd ppham/src/dataprog-web/
 cd..
-ls -r 
-ls -tr 
-ls -rt 
+ls -r
+ls -tr
+ls -rt
 ls -h
 ls --help
-ls / 
-cd ~ 
+ls /
+cd ~
 cd man/
 cd /usr/local/share/
-curl -fsSL http://git.io/QxUaOQ | sh 
+curl -fsSL http://git.io/QxUaOQ | sh
 curl --help
 brew upgrade git
 brew update git
@@ -263,22 +266,22 @@ git -h
 git -v
 subl .config/fish/config.fish
 find . -name "config.fish"
-subl -h 
-subl -w weka.log 
-subl weka.log 
+subl -h
+subl -w weka.log
+subl weka.log
 ls -l /usr/local/bin/subl
 brew info
 ruby -e '$(curl -fsSL https://raw.github.com/Homebrew/install/master/install)'
-uname -a 
+uname -a
 curl -fsSL http://git.io/7UHtNA
 echo $haha
 set -gx haha 1
 set -gx HAHA=1
 set -gx haha=1
 export haha=1
-git add README.md 
-git checkout --ours README.md 
-vi README.md 
+git add README.md
+git checkout --ours README.md
+vi README.md
 git remote set-url origin git@github.com:codefellows/pdx-w3-uge.git
 git remote origin set-url git@github.com:codefellows/pdx-w3-uge.git
 cd pdx-w3-uge/
@@ -286,25 +289,25 @@ mv pdx-w2-uge/ pdx-w3-uge
 cd pdx-w2-uge/
 git clone git@github.com:codefellows/pdx-w2-uge.git
 exit 1
-bash 
+bash
 . ~/venv/codefellows/bin/activate
 make html
 git commit requirements.txt -m 'Add jsonscheme and mistune from slides_requirements.txt to build on readthedocs.org'
 git commit source/homework/task_?.rst
 git add source/homework/task_?.rst
-vi requirements.txt 
-vi slides_requirements.txt 
-less slides_requirements.txt 
-ls slides_requirements.txt 
+vi requirements.txt
+vi slides_requirements.txt
+less slides_requirements.txt
+ls slides_requirements.txt
 cd codefellows_f2_python/
-less requirements.txt 
+less requirements.txt
 find . -name "conf.py"
 cd codefellows/sea-c34-python/
 git commit program.js
-learnyounode verify program.js 
-mv program2.js program.js 
+learnyounode verify program.js
+mv program2.js program.js
 node program2.js http://google.com http://google.com http://google.com
-vi program2.js 
+vi program2.js
 node program2.js http://google.com http://blogger.com http://web.mit.edu
 node debug program2.js http://google.com http://blogger.com http://web.mit.edu
 node debug program2.js http://google.com http://blogger.com web.mit.edu
@@ -320,7 +323,7 @@ node program.js http://google.com http://web.mit.edu
 git checkout program.js
 mv program.js program2.js
 node debug program.js http://google.com http://web.mit.edu http://blogger.com
-vi program.js 
+vi program.js
 node program.js http://google.com http://web.mit.edu http://blogger.com
 node --debug program.js http://google.com http://web.mit.edu http://blogger.com
 export GIT_EDITOR="nano"
@@ -343,19 +346,19 @@ chsh -s /bin/bash $USER
 chsh -s bash $USER
 git commit -am 'Transpose task4 and task5 branches.'
 cd ~/src/codefellows/codefellows_f2_python/
-git checkout gh-pages 
+git checkout gh-pages
 git commit -am 'Add a file with deliberate bad style to test linter. Add mystery.py from Session 2.'
-git diff examples/session02/stackoverflow.py 
+git diff examples/session02/stackoverflow.py
 cd learnyounode/
 cd nodeschool/
 cd ~/src/
-cat ~/.config/fish/config.fish 
+cat ~/.config/fish/config.fish
 which python
 vf activate test
 vf new test
 vf new ~/venv/cfv
 vf ~/venv/cfv
-vf 
+vf
 source ~/.config/fish/config.fish
 git clone https://github.com/adambrenecki/virtualfish.git ~/.virtualfish
 git clone https://github.com/adambrenecki/virtualfish.git ~/.virtualfish`
@@ -364,8 +367,8 @@ ls -l ~/.virtualfish`/
 ls ~/.virtualfish`/
 man source
 which exec
-git diff 
-vi stackoverflow.py 
+git diff
+vi stackoverflow.py
 cd examples/session02
 which source
 source ~/.virtualfish/virtual.fish
@@ -376,18 +379,18 @@ cd ~/src
 git commit -am 'Update generated Session 1 and 2.'
 cp -prv ../codefellows_f2_python/build/html/* .
 git commit -am 'Add stackoverflow example for Session 2.'
-git add stackoverflow.py 
+git add stackoverflow.py
 cd session02
 cd session0
 git commit -am 'Add fixed version of hello.py with Vietnamese greeting.'
-git add hello.py 
-git diff hello.py 
+git add hello.py
+git diff hello.py
 cd examples/session01
-cd examples/session01/hello.py 
+cd examples/session01/hello.py
 cd ../sea-c34-python/
 make slides
-subl stackoverflow.py 
-flake8 stackoverflow.py 
+subl stackoverflow.py
+flake8 stackoverflow.py
 flake8
 which flake8
 deactivate
@@ -398,16 +401,16 @@ mkdir session02
 cd examples/
 mv stackoverflow.py ~/src/codefellows/sea-c34-python/examples/
 vi stackoverflow.py
-python stackoverflow.py 
+python stackoverflow.py
 vi ~/.bash_profile
-vi ~/.bashrc 
+vi ~/.bashrc
 echo $PS1
 sudo nginx
 nginx
 git reset --hard cd64990
-./scripts/heroku_deploy.sh 
+./scripts/heroku_deploy.sh
 git merge 3b72d0e8
-vi scripts/heroku_deploy.sh 
+vi scripts/heroku_deploy.sh
 ls config/
 git push -f origin master
 git reset --hard origin/master
@@ -438,10 +441,10 @@ man chsh
 chsh ppham
 chsh /usr/local/bin/fish
 chsh fish
-python hello.py 
-vi hello.py 
+python hello.py
+vi hello.py
 ipython
-less hello.py 
+less hello.py
 cd session01/
 git commit -am 'Add a README file introducing myself.'
 git add README.md
@@ -465,16 +468,16 @@ mkdir examples
 git revert b7c0
 git revert -m 05d7
 git revert 05d7
-less README.md 
+less README.md
 git pull origin gh-pages
-less _static/pygments.css 
-ls _static/pygments.css 
+less _static/pygments.css
+ls _static/pygments.css
 cd sea-c28-students/
 PS1="\W\$(__git_ps1) \$ "
-. git-prompt.sh 
+. git-prompt.sh
 exit
 virtualenv ~/venv/games
-python asteroids.py 
+python asteroids.py
 cd ../asteroids/
 cd csf
 git commit -am "Update my personal contact info. Add additional packages to slide_requirements.txt."
@@ -493,13 +496,13 @@ ipython --version
 ipython3
 python --version
 python -v
-open session01.html 
-open index.html 
+open session01.html
+open index.html
 cd ../slides/
 cd html/
 cd build
-pip install -r slides_requirements.txt 
-git diff slides_requirements.txt 
+pip install -r slides_requirements.txt
+git diff slides_requirements.txt
 find . -name "hieroglyph"
 cd src/codefellows_f2_python/
 git clone https://github.com/nyergler/hieroglyph.git
@@ -514,7 +517,7 @@ pip install sphinx-rtd-theme
 l
 rmdir codefellows/
 mkdir codefellows
-open build/html/index.html 
+open build/html/index.html
 make
 cd sphinx-quickstart/
 sphinx-quickstart sphinx-quickstart
@@ -526,14 +529,14 @@ make --debug=j slides
 make --verbose slides
 make -d slides
 make -v slides
-vi conf.py 
+vi conf.py
 cd source/
-less build_gh_pages.sh 
+less build_gh_pages.sh
 pip list
 pip install --upgrade ipython
 pip install ipython
 pip install -r requirements.txt
-vi source/_themes/cf_theme/theme.conf 
+vi source/_themes/cf_theme/theme.conf
 find . -name "theme.conf"
 grep "slides2" *
 git remote set-url origin git@github.com:ppham/codefellows_f2_python.git
@@ -542,16 +545,16 @@ pip install mistune
 pip install jsonschema
 pip search sphinx
 pip list sphinx*
-cat slides_requirements.txt 
+cat slides_requirements.txt
 pip install six
 pip install libsass
 pip install gnureadline
-ls -l moving_around.txt 
-less moving_around.txt 
+ls -l moving_around.txt
+less moving_around.txt
 ls moving_down.txt
-ls moving_around.txt 
+ls moving_around.txt
 clear
-subl moving_around.txt 
+subl moving_around.txt
 ls -t
 ls
 history > moving_around.txt
@@ -562,7 +565,7 @@ ls .
 cd ./data/
 cd /
 ls /
-ls ~ 
+ls ~
 cd ../data/
 cd src/
 cd ../../..
@@ -585,7 +588,7 @@ ls -rt
 ls -r
 ls -lt
 cd
-clear 
+clear
 curl -fsSL http://git.io/QxUaOQ | sh
 curl -fsSL http://git.io/7UHtNA | sh
 git config --global user.email
@@ -618,9 +621,9 @@ cd unix-and-git-workshop/
 git clone git@github.com:codefellows/unix-and-git-workshop.git
 cd codefellows/
 find . -name "unix-and-git-workshop"
-. ~/venv/landon/bin/activate 
+. ~/venv/landon/bin/activate
 virtualenv ~/venv/landon
-python project.py 
+python project.py
 cd Restaurant/
 git clone git@github.com:WebDesigner32/Restaurant.git
 cd tutoring/
@@ -628,9 +631,9 @@ mkdir tutoring
 chsh -s /bin/bash
 chsh -s bash
 git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
-vi menu.html 
+vi menu.html
 cd ic.org/green-lady-web/
-./a.out 
+./a.out
 g++ test.cpp
 vi test.cpp
 cd cpp
@@ -643,68 +646,68 @@ git add -a
 git diff
 git branch
 cd ppham.github.io/
-vi /etc/sudoers 
+vi /etc/sudoers
 git push -u origin master
 git checkout master
 git remote -v
 cat ~/.ssh/id_rsa.pub
 git push -u origin git-notes
 cat ~/.ssh/id_rsa.pub | pbcopy
-ssh-keygen -t rsa 
+ssh-keygen -t rsa
 ls ~/.ssh/id_rsa
 git remote add origin git@github.com:ppham/sea-w28.git
 gitk
 git log
 git commit -m "Add notes about git."
-git add git_notes.txt 
+git add git_notes.txt
 subl git_notes.txt
 cd uge_workshop/
 git init
 touch cat.txt
-rm -Rf .git 
+rm -Rf .git
 cd temp
 mkdir temp
 git checkout git-notes
-git branch 
+git branch
 git branch git-notes
 git commit -m 'Rename funny_notes to serious_notes.'
 git mv funny_notes.txt serious_notes.txt
-git commit 
-git add funny_notes.txt 
+git commit
+git add funny_notes.txt
 touch funny_notes.txt
 git config --global core.editor 'subl -w'
 git commit -m "Add a note about hidden directories."
 git commit
-git add unix_notes.txt 
-subl unix_notes.txt 
+git add unix_notes.txt
+subl unix_notes.txt
 git ll
-git log 
+git log
 ls .git
 git commit -m "Add Paul's unix notes, initial draft."
 ls -f
 ls -a
 ls uge_workshop/
-mv uge_workshop/moving_around.txt uge_workshop/unix_notes.txt 
+mv uge_workshop/moving_around.txt uge_workshop/unix_notes.txt
 mv moving_around.txt uge_workshop/
 ls dogs_and_cats.txt
 ls uge_workshop
 mkdir uge_workshop
 rm -rf uge_workshop
-history >> moving_around.txt 
+history >> moving_around.txt
 ls -t | less
-ls 
-history > moving_around.txt 
+ls
+history > moving_around.txt
 history | tail -r
-vi ~/.config/fish/config.fish 
+vi ~/.config/fish/config.fish
 cd ...
 ls ~
-cd . 
+cd .
 cd ../..
 cd usr/bin/
 cd src/flask
-cd flask 
+cd flask
 cd src
-ls -l 
+ls -l
 cd ~/Dropbox/CodeFellows\ UGE
 cd ~/Dropbox/CodeFellows UGE
 cd /Users/ppham/
@@ -716,19 +719,19 @@ git config user.name
 brew unlink git
 brew install --upgrade git
 brew install --update git
-echo $PATH 
+echo $PATH
 ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 brew info fish
 ssh localbox@local-box.org
 export PORT=24501
-node statehub.js 
+node statehub.js
 cd statehub/
 git clone git@github.com:XPRIZE/GLEXP-Community-Speech.git
 git push origin master
 git commit ppham-invisible.tex -m 'Add Invisible College resume.'
 git commit ppham-invisible.tex -am 'Add Invisible College resume.'
-git add ppham-invisible.tex 
-pdflatex ppham-invisible.tex 
+git add ppham-invisible.tex
+pdflatex ppham-invisible.tex
 open ppham-invisible.pdf
 cd src/resume/
 cd app/build/outputs/apk/
@@ -741,13 +744,13 @@ which jshint
 git pull origin fragments
 git pull
 git commit -am 'Commit unmerged files to get latest fragments branch.'
-git add green-lady-app.iml 
-git checkout green-lady-app.iml 
+git add green-lady-app.iml
+git checkout green-lady-app.iml
 git stash save
 git stash pop
 mv ParseLoginUI/ParseLoginUI.iml ParseLoginUI/ParseLoginUI.iml2
 cd src/ic.org/green-lady-app/
-cd 
+cd
 git push --set-upstream origin master
 git pull origin master
 git pull --set-upstream origin master
@@ -755,52 +758,52 @@ git push origin
 git push
 git push origin git-notes
 git remote add origin git@github.com:ppham/uge_workshop.git
-subl git_notes.txt 
-cat git_notes.txt 
+subl git_notes.txt
+cat git_notes.txt
 touch git_notes.txt
 git reset
-git checkout 
+git checkout
 git checkout HEAD^
 git checkout HEAD
 git checkout 789a17
 git checkout 789
 git commit -m "Add comment about not listing virtual directories."
-git add . 
+git add .
 cd .git
 git commit -m "Add initial history file."
-git status 
-git add ./unix_notes.txt 
+git status
+git add ./unix_notes.txt
 man mv
-ls -l unix_notes.txt 
+ls -l unix_notes.txt
 mv moving_around.txt unix_notes.txt
 ls -plt | less
-ls -plt 
-ls -p 
+ls -plt
+ls -p
 history >> moving_around.txt
-ls -t 
-cd moving_around.txt 
+ls -t
+cd moving_around.txt
 history | more
-history | less 
+history | less
 man history
-history 10 
+history 10
 history 5
 history 100
 ls -A
-ls -a 
+ls -a
 cd etc
 cd ../Pictures/
 cd ppham/src/dataprog-web/
 cd..
-ls -r 
-ls -tr 
-ls -rt 
+ls -r
+ls -tr
+ls -rt
 ls -h
 ls --help
-ls / 
-cd ~ 
+ls /
+cd ~
 cd man/
 cd /usr/local/share/
-curl -fsSL http://git.io/QxUaOQ | sh 
+curl -fsSL http://git.io/QxUaOQ | sh
 curl --help
 brew upgrade git
 brew update git
@@ -811,22 +814,22 @@ git -h
 git -v
 subl .config/fish/config.fish
 find . -name "config.fish"
-subl -h 
-subl -w weka.log 
-subl weka.log 
+subl -h
+subl -w weka.log
+subl weka.log
 ls -l /usr/local/bin/subl
 brew info
 ruby -e '$(curl -fsSL https://raw.github.com/Homebrew/install/master/install)'
-uname -a 
+uname -a
 curl -fsSL http://git.io/7UHtNA
 echo $haha
 set -gx haha 1
 set -gx HAHA=1
 set -gx haha=1
 export haha=1
-git add README.md 
-git checkout --ours README.md 
-vi README.md 
+git add README.md
+git checkout --ours README.md
+vi README.md
 git remote set-url origin git@github.com:codefellows/pdx-w3-uge.git
 git remote origin set-url git@github.com:codefellows/pdx-w3-uge.git
 cd pdx-w3-uge/
@@ -834,25 +837,25 @@ mv pdx-w2-uge/ pdx-w3-uge
 cd pdx-w2-uge/
 git clone git@github.com:codefellows/pdx-w2-uge.git
 exit 1
-bash 
+bash
 . ~/venv/codefellows/bin/activate
 make html
 git commit requirements.txt -m 'Add jsonscheme and mistune from slides_requirements.txt to build on readthedocs.org'
 git commit source/homework/task_?.rst
 git add source/homework/task_?.rst
-vi requirements.txt 
-vi slides_requirements.txt 
-less slides_requirements.txt 
-ls slides_requirements.txt 
+vi requirements.txt
+vi slides_requirements.txt
+less slides_requirements.txt
+ls slides_requirements.txt
 cd codefellows_f2_python/
-less requirements.txt 
+less requirements.txt
 find . -name "conf.py"
 cd codefellows/sea-c34-python/
 git commit program.js
-learnyounode verify program.js 
-mv program2.js program.js 
+learnyounode verify program.js
+mv program2.js program.js
 node program2.js http://google.com http://google.com http://google.com
-vi program2.js 
+vi program2.js
 node program2.js http://google.com http://blogger.com http://web.mit.edu
 node debug program2.js http://google.com http://blogger.com http://web.mit.edu
 node debug program2.js http://google.com http://blogger.com web.mit.edu
@@ -868,7 +871,7 @@ node program.js http://google.com http://web.mit.edu
 git checkout program.js
 mv program.js program2.js
 node debug program.js http://google.com http://web.mit.edu http://blogger.com
-vi program.js 
+vi program.js
 node program.js http://google.com http://web.mit.edu http://blogger.com
 node --debug program.js http://google.com http://web.mit.edu http://blogger.com
 export GIT_EDITOR="nano"
@@ -891,19 +894,19 @@ chsh -s /bin/bash $USER
 chsh -s bash $USER
 git commit -am 'Transpose task4 and task5 branches.'
 cd ~/src/codefellows/codefellows_f2_python/
-git checkout gh-pages 
+git checkout gh-pages
 git commit -am 'Add a file with deliberate bad style to test linter. Add mystery.py from Session 2.'
-git diff examples/session02/stackoverflow.py 
+git diff examples/session02/stackoverflow.py
 cd learnyounode/
 cd nodeschool/
 cd ~/src/
-cat ~/.config/fish/config.fish 
+cat ~/.config/fish/config.fish
 which python
 vf activate test
 vf new test
 vf new ~/venv/cfv
 vf ~/venv/cfv
-vf 
+vf
 source ~/.config/fish/config.fish
 git clone https://github.com/adambrenecki/virtualfish.git ~/.virtualfish
 git clone https://github.com/adambrenecki/virtualfish.git ~/.virtualfish`
@@ -912,8 +915,8 @@ ls -l ~/.virtualfish`/
 ls ~/.virtualfish`/
 man source
 which exec
-git diff 
-vi stackoverflow.py 
+git diff
+vi stackoverflow.py
 cd examples/session02
 which source
 source ~/.virtualfish/virtual.fish
@@ -924,18 +927,18 @@ cd ~/src
 git commit -am 'Update generated Session 1 and 2.'
 cp -prv ../codefellows_f2_python/build/html/* .
 git commit -am 'Add stackoverflow example for Session 2.'
-git add stackoverflow.py 
+git add stackoverflow.py
 cd session02
 cd session0
 git commit -am 'Add fixed version of hello.py with Vietnamese greeting.'
-git add hello.py 
-git diff hello.py 
+git add hello.py
+git diff hello.py
 cd examples/session01
-cd examples/session01/hello.py 
+cd examples/session01/hello.py
 cd ../sea-c34-python/
 make slides
-subl stackoverflow.py 
-flake8 stackoverflow.py 
+subl stackoverflow.py
+flake8 stackoverflow.py
 flake8
 which flake8
 deactivate
@@ -946,16 +949,16 @@ mkdir session02
 cd examples/
 mv stackoverflow.py ~/src/codefellows/sea-c34-python/examples/
 vi stackoverflow.py
-python stackoverflow.py 
+python stackoverflow.py
 vi ~/.bash_profile
-vi ~/.bashrc 
+vi ~/.bashrc
 echo $PS1
 sudo nginx
 nginx
 git reset --hard cd64990
-./scripts/heroku_deploy.sh 
+./scripts/heroku_deploy.sh
 git merge 3b72d0e8
-vi scripts/heroku_deploy.sh 
+vi scripts/heroku_deploy.sh
 ls config/
 git push -f origin master
 git reset --hard origin/master
@@ -986,10 +989,10 @@ man chsh
 chsh ppham
 chsh /usr/local/bin/fish
 chsh fish
-python hello.py 
-vi hello.py 
+python hello.py
+vi hello.py
 ipython
-less hello.py 
+less hello.py
 cd session01/
 git commit -am 'Add a README file introducing myself.'
 git add README.md
@@ -1013,16 +1016,16 @@ mkdir examples
 git revert b7c0
 git revert -m 05d7
 git revert 05d7
-less README.md 
+less README.md
 git pull origin gh-pages
-less _static/pygments.css 
-ls _static/pygments.css 
+less _static/pygments.css
+ls _static/pygments.css
 cd sea-c28-students/
 PS1="\W\$(__git_ps1) \$ "
-. git-prompt.sh 
+. git-prompt.sh
 exit
 virtualenv ~/venv/games
-python asteroids.py 
+python asteroids.py
 cd ../asteroids/
 cd csf
 git commit -am "Update my personal contact info. Add additional packages to slide_requirements.txt."
@@ -1041,13 +1044,13 @@ ipython --version
 ipython3
 python --version
 python -v
-open session01.html 
-open index.html 
+open session01.html
+open index.html
 cd ../slides/
 cd html/
 cd build
-pip install -r slides_requirements.txt 
-git diff slides_requirements.txt 
+pip install -r slides_requirements.txt
+git diff slides_requirements.txt
 find . -name "hieroglyph"
 cd src/codefellows_f2_python/
 git clone https://github.com/nyergler/hieroglyph.git
@@ -1062,7 +1065,7 @@ pip install sphinx-rtd-theme
 l
 rmdir codefellows/
 mkdir codefellows
-open build/html/index.html 
+open build/html/index.html
 make
 cd sphinx-quickstart/
 sphinx-quickstart sphinx-quickstart
@@ -1074,14 +1077,14 @@ make --debug=j slides
 make --verbose slides
 make -d slides
 make -v slides
-vi conf.py 
+vi conf.py
 cd source/
-less build_gh_pages.sh 
+less build_gh_pages.sh
 pip list
 pip install --upgrade ipython
 pip install ipython
 pip install -r requirements.txt
-vi source/_themes/cf_theme/theme.conf 
+vi source/_themes/cf_theme/theme.conf
 find . -name "theme.conf"
 grep "slides2" *
 git remote set-url origin git@github.com:ppham/codefellows_f2_python.git
@@ -1090,7 +1093,7 @@ pip install mistune
 pip install jsonschema
 pip search sphinx
 pip list sphinx*
-cat slides_requirements.txt 
+cat slides_requirements.txt
 pip install six
 pip install libsass
 pip install gnureadline
